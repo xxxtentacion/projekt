@@ -1,0 +1,291 @@
+[
+  {
+    "ContainingType": "Authentication.API.Controllers.GameStatsController",
+    "Method": "GetAllGameStats",
+    "RelativePath": "api/GameStats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.GameStatsController",
+    "Method": "CreateGameStat",
+    "RelativePath": "api/GameStats",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gameStat",
+        "Type": "Authentication.Core.Entities.GameStats",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.GameStatsController",
+    "Method": "GetGameStatById",
+    "RelativePath": "api/GameStats/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.GameStatsController",
+    "Method": "UpdateGameStat",
+    "RelativePath": "api/GameStats/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "gameStat",
+        "Type": "Authentication.Core.Entities.GameStats",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.GameStatsController",
+    "Method": "DeleteGameStat",
+    "RelativePath": "api/GameStats/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.LicenseController",
+    "Method": "DeleteLicense",
+    "RelativePath": "api/License/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminLicenseKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "licenseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.LicenseController",
+    "Method": "GenerateLicense",
+    "RelativePath": "api/License/Generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminLicenseKey",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.LicenseController",
+    "Method": "GetAllLicenses",
+    "RelativePath": "api/License/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.LicenseController",
+    "Method": "GetBannedLicenses",
+    "RelativePath": "api/License/GetBannedLicences",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "licenseKey",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.LicenseController",
+    "Method": "Login",
+    "RelativePath": "api/License/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "licenseKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "hwid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.LicenseController",
+    "Method": "UpdateLicense",
+    "RelativePath": "api/License/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "adminLicenseKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "licenseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "isBanned",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "isAdmin",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.LicenseStatsController",
+    "Method": "GetAllLicenseStats",
+    "RelativePath": "api/LicenseStats",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.LicenseStatsController",
+    "Method": "CreateLicenseStat",
+    "RelativePath": "api/LicenseStats",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "licenseStat",
+        "Type": "Authentication.Core.Entities.LicenseStats",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.LicenseStatsController",
+    "Method": "GetLicenseStatById",
+    "RelativePath": "api/LicenseStats/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.LicenseStatsController",
+    "Method": "UpdateLicenseStat",
+    "RelativePath": "api/LicenseStats/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "licenseStat",
+        "Type": "Authentication.Core.Entities.LicenseStats",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.LicenseStatsController",
+    "Method": "DeleteLicenseStat",
+    "RelativePath": "api/LicenseStats/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Authentication.API.Controllers.LicenseStatsController",
+    "Method": "GetLicenseStatByLicenseKey",
+    "RelativePath": "api/LicenseStats/by-license/{licenseKey}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "licenseKey",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
